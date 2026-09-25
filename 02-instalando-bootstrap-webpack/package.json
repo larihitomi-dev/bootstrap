@@ -1,0 +1,39 @@
+{
+  "name": "bootstrap-sass",
+  "version": "1.0.0",
+  "description": "Esse repositório foi criado para documentar meus estudos e práticas de bootstrap e sass, reunindo exercícios, desafios e pequenos projetos desenvolvidos ao longo da minha jornada de aprendizado em desenvolvimento web.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack build --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larihitomi-dev/bootstrap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/larihitomi-dev/bootstrap/issues"
+  },
+  "homepage": "https://github.com/larihitomi-dev/bootstrap#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "css-loader": "^7.1.5",
+    "html-webpack-plugin": "^5.6.8",
+    "postcss-loader": "^8.2.1",
+    "sass": "^1.105.0",
+    "sass-loader": "^17.0.1",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.111.1",
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8"
+  }
+}
