@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -10,21 +10,21 @@
 </head>
 
 <body>
-  <main>
-    <h1>Classes Básicas do Bootstrap</h1>
+  <main class="container">
+    <h1 class="text-center">Classes Básicas do Bootstrap</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolores unde dicta dignissimos earum quis
       doloremque facere dolor velit molestiae minima aliquam ut, quia accusamus. Accusamus at veritatis nihil quidem?
     </p>
-    <ul>
+    <ul class="border border-primary border-3 rounded-0 shadow-lg">
       <li>Item 1</li>
       <li>Item 2</li>
-      <li>Item com mais margem</li>
+      <li class="ms-3">Item com mais margem</li>
       <li>Item 4</li>
       <li>Item 5</li>
     </ul>
   </main>
 
-  <section>
+  <section class="container-fluid bg-primary text-light py-5">
     <div>
       <h2>Seção com Cor de Fundo</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ad tempore, totam quae repellat qui commodi est
@@ -32,38 +32,38 @@
     </div>
   </section>
 
-  <section>
+  <section class="text-center mx-auto w-50 py-5">
     <h2>Seção Centralizada</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ad tempore, totam quae repellat qui commodi est
+    <p class="fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ad tempore, totam quae repellat qui commodi est
       sapiente possimus fugiat porro maiores rerum eligendi quidem maxime sequi, excepturi facere reprehenderit!</p>
   </section>
 
   <section>
-    <div>
+    <div class="min-vh-100">
       <h2>Utilitários de Display</h2>
-      <div>
-        <div>
+      <div  class="d-flex fs-2 justify-content-center gap-3 align-items-center">
+        <div class="bg-primary">
           Item 1
         </div>
-        <div>
+        <div class="bg-secondary py-3">
           Item 2
         </div>
-        <div>
+        <div class="bg-success">
           Item 3
         </div>
-        <div>
+        <div class="bg-danger">
           Item 4
         </div>
       </div>
-      <div>
-        <div>
-          Item 1
+      <div class="d-flex justify-content-center gap-3 fs-3 mt-5">
+        <div class="bg-primary d-md-none">
+          Item 1 : Apenas mobile
         </div>
-        <div>
-          Item 2
+        <div class="bg-success">
+          Item 2 : Apenas mobile e telas grandes
         </div>
-        <div>
-          Item 3
+        <div class="bg-danger d-none d-lg-block">
+          Item 3 : Apenas telas grandes
         </div>
       </div>
     </div>
